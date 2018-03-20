@@ -1,0 +1,120 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+.site-header {
+    background: #0b3c5d;
+    color: #d9b310;
+    padding: 40px 5%;
+    box-shadow: 0 3px 3px #999;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 20px;
+    float: left;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.billboard {
+    background: #1d2731;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.billboard h2 {
+    margin-top: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #d9b310;
+}
+
+.main-nav li + li {
+    margin-left: 10px;
+}
+
+.main-col {
+    float: left;
+    width: 70%
+}
+
+.sidebar-col {
+    float: right;
+    background: #828081;
+    width: 25%;
+    padding: 20px 2.5%;
+    color: black;
+    border-radius: 5%;
+}
+
+.sidebar-col h4{
+    font-size: 20px;
+    color: #000
+}
+
+.column-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    background: #d9d9d9;
+    padding: 20px 2.5%;
+}
+
+
+
+
+.main-footer {
+    padding: 40px 5%;
+    color: #d9b310;
+    background: #0b3c5d;
+    margin: 0;
+}
+
+.main-footer a {
+    color: #d9b310;
+    font-size: 12px;
+}
+
+
+.copywrite {
+    float: left;
+}
+
+.footer-nav {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li + li{
+    margin-left: 10px;
+}
